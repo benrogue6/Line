@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="traffic" pkg="maker" type="green.py"  output="screen"></node>
+  <node name="nano" pkg="maker" type="red.py"  output="screen"></node>
+  <node name="laser_scan" pkg="maker" type="laser.py"  output="screen"></node>
+
+  <node name="black" pkg="maker" type="middle.py"  output="screen"></node>
+
+</launch>

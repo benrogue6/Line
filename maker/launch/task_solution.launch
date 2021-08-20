@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="cube_node" pkg="maker" type="light_dark.py"  output="screen"></node>
+  <node name="traffic" pkg="maker" type="green.py"  output="screen"></node>
+  <node name="nano" pkg="maker" type="red.py"  output="screen"></node>
+
+</launch>
